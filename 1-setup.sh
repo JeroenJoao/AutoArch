@@ -82,7 +82,6 @@ PKGS=(
 'breeze-gtk'
 'bridge-utils'
 'btrfs-progs'
-'celluloid' # video players
 'cmatrix'
 'code' # Visual Studio code
 'cronie'
@@ -103,7 +102,6 @@ PKGS=(
 'fuseiso'
 'gamemode'
 'gcc'
-'gimp' # Photo editing
 'git'
 'gparted' # partition management
 'gptfdisk'
@@ -174,7 +172,6 @@ PKGS=(
 'sddm-kcm'
 'snapper'
 'spectacle'
-'steam'
 'sudo'
 'swtpm'
 'synergy'
@@ -190,9 +187,6 @@ PKGS=(
 'virt-viewer'
 'wget'
 'which'
-'wine-gecko'
-'wine-mono'
-'winetricks'
 'xdg-desktop-portal-kde'
 'xdg-user-dirs'
 'zeroconf-ioslave'
@@ -200,6 +194,16 @@ PKGS=(
 'zsh'
 'zsh-syntax-highlighting'
 'zsh-autosuggestions'
+'vlc'
+'discord'
+'libreoffice'
+'community/intellij-idea-community-edition'
+'community/pycharm-community-edition'
+'community/jupyter-notebook'
+'community/nextcloud-client'
+'community/qbittorrent'
+'timeshift'
+'thunderbird'
 )
 
 for PKG in "${PKGS[@]}"; do
